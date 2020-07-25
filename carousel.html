@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <title>Carousel</title>
+</head>
+<body>
+
+
+
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <div class="arrow-contain">
+                <img src="img/left.png" alt="">
+            </div> 
+        </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <p class="title">YOUR TITLE/IMG HERE</p>
+                        <div class="slide-col">
+                            <p>Your text here</p>
+                            <img src="" alt="Your image here">
+                        </div>
+                    </li>
+                    <li class="carousel__slide current-slide">
+                        <p class="title">YOUR TITLE/IMG HERE</p>
+                        <div class="slide-col">
+                            <p>Your text here</p>
+                            <img src="" alt="Your image here">
+                        </div>
+                    </li>
+                    <li class="carousel__slide current-slide">
+                        <p class="title">YOUR TITLE/IMG HERE</p>
+                        <div class="slide-col">
+                            <p>Your text here</p>
+                            <img src="" alt="Your image here">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        <button class="carousel__button carousel__button--right">
+            <div class="arrow-contain">
+                <img src="img/right.png" alt="">
+            </div>
+        </button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+
+
+
+    <script src="carousel.js"></script>
+</body>
+</html>
